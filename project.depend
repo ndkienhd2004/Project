@@ -1,0 +1,116 @@
+# depslib dependency file v1.0
+1680787984 source:e:\code\abc\project\main.cpp
+	"include/Game.h"
+
+1676109294 source:e:\code\abc\project\init.cpp
+	"common.h"
+
+1676472667 e:\code\abc\project\common.h
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1676473811 source:e:\code\abc\project\keypress.cpp
+	"common.h"
+
+1676269826 source:e:\code\abc\project\loadimg.cpp
+	"common.h"
+
+1677768297 source:e:\code\abc\project\src\texture.cpp
+	"../include/texture.h"
+
+1677767942 e:\code\abc\project\include\texture.h
+	<string>
+
+1680505383 e:\code\abc\project\include\game.h
+	<bits/stdc++.h>
+	<SDL.h>
+
+1680781601 source:e:\code\abc\project\src\game.cpp
+	"../include/game.h"
+	"../include/texturemanager.h"
+	"../include/GameObject.h"
+	"../include/mapp.h"
+	"../include/AmoObject.h"
+	"../include/ThreatsObject.h"
+	"../include/Collision.h"
+
+1678030103 e:\code\abc\project\include\texturemanager.h
+	<bits/stdc++.h>
+	<SDL_image.h>
+
+1678030117 source:e:\code\abc\project\src\texturemanager.cpp
+	"../include/texturemanager.h"
+	"../include/game.h"
+
+1680781494 e:\code\abc\project\include\gameobject.h
+	"game.h"
+	<bits/stdc++.h>
+	"Component/Controller.h"
+	<vector>
+	<memory>
+	<algorithm>
+	"AmoObject.h"
+	"Component/Collider.h"
+
+1680787867 source:e:\code\abc\project\src\gameobject.cpp
+	"../include/GameObject.h"
+	"../include/texturemanager.h"
+	"../include/Component/Controller.h"
+
+1678373566 source:e:\code\abc\project\src\map.cpp
+	"../include/map.h"
+	"../include/texturemanager.h"
+
+1678029782 e:\code\abc\project\include\map.h
+	"game.h"
+
+1678375514 e:\code\abc\project\include\component\controller.h
+	"../game.h"
+
+1678938290 source:e:\code\abc\project\src\controller.cpp
+	"../include/Component/Controller.h"
+	"../include/AmoObject.h"
+
+1678955555 source:e:\code\abc\project\src\amoobject.cpp
+	"../include/AmoObject.h"
+	"../include/texturemanager.h"
+	"../include/game.h"
+	"../include/Component/Controller.h"
+
+1678954962 e:\code\abc\project\include\amoobject.h
+	"game.h"
+	<memory>
+	<algorithm>
+	"Component/Collider.h"
+
+1678262762 e:\code\abc\project\animation.h
+
+1680780835 source:e:\code\abc\project\src\threatsobject.cpp
+	<algorithm>
+	"../include/ThreatsObject.h"
+	"../include/GameObject.h"
+
+1680751102 e:\code\abc\project\include\threatsobject.h
+	"game.h"
+	"texturemanager.h"
+	"Component/Collider.h"
+
+1678933833 e:\code\abc\project\include\mapp.h
+	"game.h"
+	"texturemanager.h"
+	"ThreatsObject.h"
+
+1680781715 source:e:\code\abc\project\src\mapp.cpp
+	"../include/mapp.h"
+
+1678955599 e:\code\abc\project\include\component\collider.h
+	<SDL.h>
+
+1678955153 source:e:\code\abc\project\src\collider.cpp
+	"../include/Component/Collider.h"
+
+1678955392 e:\code\abc\project\include\collision.h
+
+1680502167 source:c:\users\kien\desktop\test.cpp
+
