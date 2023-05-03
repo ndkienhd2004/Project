@@ -1,0 +1,133 @@
+# depslib dependency file v1.0
+1681402283 source:c:\users\kien\desktop\game\spacewars\main.cpp
+	"include/Game.h"
+
+1683132498 c:\users\kien\desktop\game\spacewars\include\game.h
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+
+1681966309 source:c:\users\kien\desktop\game\spacewars\src\amoobject.cpp
+	"../include/AmoObject.h"
+	"../include/texturemanager.h"
+	"../include/game.h"
+	"../include/Component/Controller.h"
+
+1678954962 c:\users\kien\desktop\game\spacewars\include\amoobject.h
+	"game.h"
+	<memory>
+	<algorithm>
+	"Component/Collider.h"
+
+1678955599 c:\users\kien\desktop\game\spacewars\include\component\collider.h
+	<SDL.h>
+
+1682157228 c:\users\kien\desktop\game\spacewars\include\texturemanager.h
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+
+1678375514 c:\users\kien\desktop\game\spacewars\include\component\controller.h
+	"../game.h"
+
+1678955153 source:c:\users\kien\desktop\game\spacewars\src\collider.cpp
+	"../include/Component/Collider.h"
+
+1683135532 source:c:\users\kien\desktop\game\spacewars\src\controller.cpp
+	"../include/Component/Controller.h"
+	"../include/AmoObject.h"
+	"../include/game.h"
+	"../include/GameObject.h"
+	"../include/MixerManager.h"
+
+1682010077 c:\users\kien\desktop\game\spacewars\include\gameobject.h
+	"game.h"
+	<bits/stdc++.h>
+	"Component/Controller.h"
+	<vector>
+	<memory>
+	<algorithm>
+	"AmoObject.h"
+	"Component/Collider.h"
+
+1683134336 source:c:\users\kien\desktop\game\spacewars\src\game.cpp
+	"../include/game.h"
+	"../include/texturemanager.h"
+	"../include/GameObject.h"
+	"../include/mapp.h"
+	"../include/AmoObject.h"
+	"../include/ThreatsObject.h"
+	"../include/Collision.h"
+	"../include/TextObject.h"
+	"../include/MixerManager.h"
+
+1681917887 c:\users\kien\desktop\game\spacewars\include\mapp.h
+	"game.h"
+	"texturemanager.h"
+	"ThreatsObject.h"
+	"SupportObject.h"
+
+1680751102 c:\users\kien\desktop\game\spacewars\include\threatsobject.h
+	"game.h"
+	"texturemanager.h"
+	"Component/Collider.h"
+
+1682155969 c:\users\kien\desktop\game\spacewars\include\supportobject.h
+	"game.h"
+	"texturemanager.h"
+	"Component/Collider.h"
+
+1678955392 c:\users\kien\desktop\game\spacewars\include\collision.h
+
+1681488314 c:\users\kien\desktop\game\spacewars\include\textobject.h
+	"game.h"
+	<bits/stdc++.h>
+	<SDL_ttf.h>
+
+1683133731 c:\users\kien\desktop\game\spacewars\include\mixermanager.h
+	<map>
+	<iostream>
+	<string>
+	<SDL.h>
+	<SDL_mixer.h>
+	"game.h"
+
+1683131240 source:c:\users\kien\desktop\game\spacewars\src\gameobject.cpp
+	"../include/GameObject.h"
+	"../include/texturemanager.h"
+	"../include/Component/Controller.h"
+
+1678373566 source:c:\users\kien\desktop\game\spacewars\src\map.cpp
+	"../include/map.h"
+	"../include/texturemanager.h"
+
+1678029782 c:\users\kien\desktop\game\spacewars\include\map.h
+	"game.h"
+
+1681919301 source:c:\users\kien\desktop\game\spacewars\src\mapp.cpp
+	"../include/mapp.h"
+
+1680869949 source:c:\users\kien\desktop\game\spacewars\src\menu.cpp
+
+1683130881 source:c:\users\kien\desktop\game\spacewars\src\mixermanager.cpp
+	"../include/MixerManager.h"
+
+1683135628 source:c:\users\kien\desktop\game\spacewars\src\supportobject.cpp
+	<algorithm>
+	"../include/SupportObject.h"
+	"../include/GameObject.h"
+	"../include/MixerManager.h"
+
+1681488362 source:c:\users\kien\desktop\game\spacewars\src\textobject.cpp
+	"../include/TextObject.h"
+
+1682157226 source:c:\users\kien\desktop\game\spacewars\src\texturemanager.cpp
+	"../include/texturemanager.h"
+	"../include/game.h"
+
+1681293390 source:c:\users\kien\desktop\game\spacewars\src\threatsobject.cpp
+	<algorithm>
+	"../include/ThreatsObject.h"
+	"../include/GameObject.h"
+
