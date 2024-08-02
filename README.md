@@ -5,19 +5,25 @@ Space War is an exhilarating space-themed arcade game coded in C++. Players cont
 
 Gameplay:
 
-Controls:
+1.Controls:
 
 Movement: Use the arrow keys to navigate the battleship. The ship can move left, right, up, and down to dodge incoming asteroids.
+
 Shooting: Press the space bar to fire projectiles at the asteroids. Each hit on an asteroid awards points.
-Objective:
+
+2.Objective:
 
 Survival: Avoid collisions with asteroids to keep your battleship intact. The game ends when the battleship is hit by an asteroid.
+
 Score Points: Shoot and destroy asteroids to earn points. The more asteroids you destroy, the higher your score.
-Game Mechanics:
+
+3.Game Mechanics:
 
 Asteroids: Asteroids of various sizes and speeds will appear from different directions, heading towards the battleship. Larger asteroids may break into smaller fragments when shot.
+
 Difficulty Increase: As the game progresses, the frequency and speed of the incoming asteroids will increase, making it more challenging to survive and score points.
 Power-ups: Occasionally, power-ups may appear, providing temporary boosts such as increased fire rate, shields, or extra points.
+
 Graphics and Sound:
 The game features vibrant, retro-style graphics with a starry space background. Explosions and laser sound effects enhance the immersive experience, creating a thrilling atmosphere as players engage in intense space battles.
 
